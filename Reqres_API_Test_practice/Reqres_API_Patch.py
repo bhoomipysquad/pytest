@@ -15,9 +15,9 @@ print(json.dumps(data, indent=4))
 
 updated_data ={
     "name" : "Bhumi",
-     "job": "leader",
-     "id": "389",
-    "createdAt": "2025-01-27T11:20:56.603Z"
+    #  "job": "leader",
+    #  "id": "389",
+    # "createdAt": "2025-01-27T11:20:56.603Z"
 }
 
 response=requests.patch(url, data=updated_data)
